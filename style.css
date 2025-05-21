@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.slogan {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: #cbd5e1;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #0f172a;
+}
+
+ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+}
+
+.quem-somos {
+    background-color: #e2e8f0;
+    text-align: center;
+}
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
