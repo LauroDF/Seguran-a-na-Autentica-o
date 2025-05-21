@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-image: url('/assets/cadeado.png');
+  background-image: url('./assets/cadeado.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
