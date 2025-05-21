@@ -1,72 +1,79 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Autenticação Segura</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autenticação: Quem é você na rede?</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Quem é você na rede?</h1>
-        <p class="slogan">Autenticação: sua identidade, sua defesa.</p>
+  <main class="container">
+    <header class="hero">
+        <div class="hero-text">
+            <p class="tag">Segurança da Informação</p>
+            <h1>Autenticação.<br>Quem é você na rede?</h1>
+        </div>
     </header>
 
     <section>
-        <h2>O que é autenticação?</h2>
-        <p>
-            Autenticação é o processo de confirmar sua identidade ao acessar uma conta digital. 
-            Ela garante que apenas você possa acessar seus perfis, redes sociais, e-mails e aplicativos bancários.
-            Embora a senha seja o método mais comum, **ela sozinha não é suficiente**. A autenticação em duas etapas (2FA) 
-            adiciona uma camada extra de segurança.
-        </p>
+      <h2>O que é autenticação?</h2>
+      <p>
+        Autenticação é o processo de confirmar sua identidade ao acessar uma conta digital.
+        Ou seja, é a etapa que garante que somente você possa entrar nos seus perfis, e-mails,
+        redes sociais, aplicativos bancários e outros serviços online.
+      </p>
+      <p>
+        Por padrão, essa autenticação é feita com uma senha. No entanto, senhas sozinhas
+        não são mais suficientes para garantir a segurança das suas contas.
+      </p>
     </section>
 
     <section>
-        <h2>Como funciona o 2FA/MFA?</h2>
+      <h2>O que é autenticação em duas etapas?</h2>
+      <p>
+        A autenticação em duas etapas (ou multifator) adiciona uma segunda camada de verificação à sua conta.
+        Assim, mesmo que alguém descubra sua senha, não conseguirá acessar sua conta sem essa segunda confirmação.
+      </p>
+      <ul>
+        <li>Você digita sua senha normalmente</li>
+        <li>O sistema pede um segundo código, como:</li>
         <ul>
-            <li>Você digita sua senha normalmente.</li>
-            <li>Depois, confirma sua identidade com um segundo fator:</li>
-            <ul>
-                <li>Código via SMS ou e-mail</li>
-                <li>Aplicativos autenticadores (ex: Google Authenticator)</li>
-                <li>Chaves de segurança (USB)</li>
-                <li>Biometria ou reconhecimento facial</li>
-            </ul>
+          <li>SMS ou e-mail</li>
+          <li>Apps como Google ou Microsoft Authenticator</li>
+          <li>Dispositivos físicos (chaves USB)</li>
+          <li>Biometria ou reconhecimento facial</li>
         </ul>
+      </ul>
     </section>
 
     <section>
-        <h2>Cuidado com o Phishing!</h2>
-        <p>
-            Phishing é uma técnica que engana usuários para roubar dados, como senhas e códigos de autenticação.
-            Mesmo com 2FA, se o usuário for enganado, os criminosos podem capturar os dados antes da autenticação ser concluída.
-        </p>
-        <p>Exemplos:</p>
-        <ul>
-            <li>E-mails falsos com links para páginas de login clonadas</li>
-            <li>Mensagens de SMS ou WhatsApp com links maliciosos</li>
-        </ul>
+      <h2>Cuidado com o phishing!</h2>
+      <p>
+        Phishing é uma técnica usada para enganar a vítima e conseguir dados confidenciais, como senhas e códigos de autenticação.
+        Mesmo com 2FA, o phishing pode enganar o usuário a fornecer os dados antes mesmo da verificação.
+      </p>
+      <ul>
+        <li>E-mails falsos com páginas clonadas</li>
+        <li>Links maliciosos por SMS ou WhatsApp</li>
+      </ul>
     </section>
 
     <section>
-        <h2>Como se proteger?</h2>
-        <ul>
-            <li>Ative o 2FA sempre que possível</li>
-            <li>Prefira apps autenticadores em vez de SMS</li>
-            <li>Desconfie de links recebidos por e-mail ou mensagem</li>
-            <li>Verifique sempre o endereço do site antes de digitar sua senha</li>
-        </ul>
+      <h2>Como se proteger</h2>
+      <ul>
+        <li>Ative a autenticação multifator sempre que possível</li>
+        <li>Prefira apps autenticadores ao invés de SMS</li>
+        <li>Desconfie de links recebidos por e-mail ou mensagem</li>
+        <li>Verifique o endereço do site antes de digitar dados</li>
+      </ul>
     </section>
 
-    <section class="quem-somos">
-        <h2>Quem somos?</h2>
-        <p>Fernegatto Inc. | Faculdade XYZ | Disciplina: Segurança da Informação | Prof. Nome do Professor</p>
-        <p>Fontes: CERT.br, Safernet, Kaspersky, Microsoft Security</p>
+    <section class="credits">
+      <h2>Quem somos?</h2>
+      <p>Fernegatto Inc. | Faculdade XYZ</p>
+      <p>Disciplina: Segurança da Informação | Prof. Nome do Professor</p>
+      <p>Fontes: CERT.br, Safernet, Kaspersky, Microsoft</p>
     </section>
-
-    <footer>
-        <p>© 2025 Fernegatto Inc. - Todos os direitos reservados.</p>
-    </footer>
+  </main>
 </body>
 </html>
